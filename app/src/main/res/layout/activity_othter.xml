@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/award_bg_num"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_0"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_1"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_2"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_3"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_4"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_5"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_6"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_7"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_8"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_9"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+        <com.demo.winwang.tigermachine.widget.WheelView
+            android:id="@+id/wheel_10"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"/>
+</LinearLayout>
