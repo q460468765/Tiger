@@ -2,6 +2,8 @@ package com.demo.winwang.tigermachine;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +15,8 @@ import com.demo.winwang.tigermachine.widget.adapters.ArrayWheelAdapter;
 
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.Timer;
+import java.util.TimerTask;
 
 public class OtherActivity extends AppCompatActivity {
     //数据源
@@ -22,6 +26,14 @@ public class OtherActivity extends AppCompatActivity {
     private Integer[] resIds;
     //用于标记上一次旋转的角度，用于多次抽奖的角度矫正
     private HashMap<Integer,Integer> map = new HashMap<>();
+
+    private Handler handler = new Handler(new Handler.Callback() {
+        @Override
+        public boolean handleMessage(Message msg) {
+
+            return false;
+        }
+    });
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,6 +46,14 @@ public class OtherActivity extends AppCompatActivity {
                 startScroll("G25ST005865");
             }
         });
+//        startScroll("G25ST005865");
+        new Timer().schedule(new TimerTask() {
+            @Override
+            public void run() {
+                startScroll("G25ST005865");
+            }
+        },100);
+//        handler.sendEmptyMessage(1);
     }
 
     private void initResIds(){

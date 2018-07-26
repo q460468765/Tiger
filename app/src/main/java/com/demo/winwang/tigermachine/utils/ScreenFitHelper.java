@@ -14,10 +14,6 @@ import java.lang.reflect.Field;
 
 import static android.content.Context.WINDOW_SERVICE;
 
-/**
- * Created by WinWang on 2017/8/13.
- * 屏幕适配
- */
 
 public class ScreenFitHelper {
 

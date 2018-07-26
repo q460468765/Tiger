@@ -41,8 +41,6 @@ import java.util.List;
 
 /**
  * Numeric wheel view.
- * 
- * @author Yuri Kanivets
  */
 public class WheelView extends View {
 

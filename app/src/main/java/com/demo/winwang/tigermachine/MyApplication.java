@@ -4,10 +4,6 @@ import android.app.Application;
 
 import com.demo.winwang.tigermachine.utils.ScreenFitHelper;
 
-/**
- * Created by admin on 2018/3/12.
- */
-
 public class MyApplication extends Application {
     @Override
     public void onCreate() {
